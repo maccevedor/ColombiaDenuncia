@@ -15,14 +15,15 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;
  
     // Database Name
-    private static final String DATABASE_NAME = "spinnerExample";
+    private static final String DATABASE_NAME = "ColombiaDenuncia";
  
     // Labels table name
-    private static final String TABLE_LABELS = "labels";
+    private static final String TABLE_LABELS = "Empresas";
  
     // Labels Table Columns names
     private static final String KEY_ID = "id";
-    private static final String KEY_NAME = "name";
+    private static final String KEY_NAME = "Empresa";
+    private static final String KEY_EMAIL = "Email";
  
     public DatabaseHandler(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
