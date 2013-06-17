@@ -9,8 +9,58 @@
     tools:context=".MainActivity" >
 
     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dip"
+        android:text="Add New Label" />
+
+    <!-- Input Text -->
+
+    <!-- Add Button -->
+
+
+    <!-- Select Label -->
+
+
+    <!-- Spinner Dropdown -->
+
+    <EditText
+        android:id="@+id/input_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignLeft="@+id/input_label"
+        android:layout_below="@+id/input_label"
+        android:layout_marginTop="18dp"
+        android:text="Add Label" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_add"
+        android:layout_below="@+id/btn_add"
+        android:padding="8dip"
+        android:text="Select Label" />
+
+<Spinner
+    android:id="@+id/spinner"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:prompt="@string/spinner_title" />
+"
 
 </RelativeLayout>
