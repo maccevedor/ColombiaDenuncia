@@ -14,8 +14,9 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.appdenuncie.MainActivity"
-            android:label="@string/app_name" >
+            android:name="com.example.appdenuncie.Lista"
+            android:label="@string/title_activity_lista" 
+             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,8 +24,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.appdenuncie.Lista"
-            android:label="@string/title_activity_lista" >
+            android:name="com.example.appdenuncie.MainActivity"
+            android:label="@string/app_name"            >
         </activity>
     </application>
 
