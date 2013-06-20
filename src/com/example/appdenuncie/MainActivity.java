@@ -3,10 +3,7 @@ package com.example.appdenuncie;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
-
 import java.util.List;
-
-import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.View;

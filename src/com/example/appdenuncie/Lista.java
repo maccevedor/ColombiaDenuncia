@@ -3,6 +3,7 @@ package com.example.appdenuncie;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.widget.Spinner;
 
 public class Lista extends Activity {
 
@@ -10,6 +11,8 @@ public class Lista extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_lista);
+	
+		
 	}
 
 	@Override
