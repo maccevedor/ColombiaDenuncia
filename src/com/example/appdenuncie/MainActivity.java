@@ -15,6 +15,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
 
 public class MainActivity extends Activity implements
 		OnItemSelectedListener {
@@ -32,6 +38,15 @@ public class MainActivity extends Activity implements
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		Button next = (Button) findViewById(R.id.Sisuiente);
+        next.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(), Activity2.class);
+                startActivityForResult(myIntent, 0);
+            }
+
+        });
 
 		// Spinner element
 		spinner = (Spinner) findViewById(R.id.spinner);

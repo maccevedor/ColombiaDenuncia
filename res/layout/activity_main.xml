@@ -61,6 +61,15 @@
     android:layout_centerHorizontal="true"
     android:layout_centerVertical="true"
     android:prompt="@string/spinner_title" />
+
+<Button
+    android:id="@+id/Sisuiente"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/spinner"
+    android:layout_below="@+id/spinner"
+    android:text="Button" />
+
 "
 
 </RelativeLayout>

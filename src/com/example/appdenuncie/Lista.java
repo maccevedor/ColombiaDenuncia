@@ -3,8 +3,12 @@ package com.example.appdenuncie;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.widget.Button;
 import android.widget.Spinner;	
 import android.widget.ArrayAdapter;
+import android.content.Intent;
+import android.view.View;
+import android.R.*;
 
 
 public class Lista extends Activity {
@@ -14,6 +18,7 @@ public class Lista extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_lista);
 		
+
 		// Initialize the array
 	    String[] Empresas = { "Emab", "Proactiva", "AMB" };
 	 
